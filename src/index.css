@@ -1,13 +1,11 @@
 body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
-
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+    margin: 0;
+    font-family: "Fira Sans Condensed", sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    background: #24252f;
+    background-image: -moz-linear-gradient(90deg, #24252f 0%, #31313f 36%, #2f303d 44%, #242530 100%);
+    background-image: -webkit-linear-gradient(90deg, #24252f 0%, #31313f 36%, #2f303d 44%, #242530 100%);
+    background-image: linear-gradient(90deg, #24252f 0%, #31313f 36%, #2f303d 44%, #242530 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#24252f", endColorstr="#242530", GradientType=1);
 }

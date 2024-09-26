@@ -1,0 +1,16 @@
+.button {
+    padding: 11px 29px 10px;
+    background-color: #313341;
+    box-shadow: 8px 15px 29px 0 rgba(23, 27, 44, 0.41);
+    border: none;
+    border-radius: 7px;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.button_text {
+    font-family: "Fira Sans Condensed", sans-serif;
+    font-size: 24px;
+    line-height: 29px;
+    color: #f0f4ff;
+}

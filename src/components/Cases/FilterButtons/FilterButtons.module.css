@@ -1,0 +1,4 @@
+.filter_buttons {
+    display: flex;
+    column-gap: 102px;
+}

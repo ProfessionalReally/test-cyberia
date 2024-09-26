@@ -3,11 +3,21 @@ import classes from './Navbar.module.css'
 function Navbar() {
     return (
         <nav className={classes.nav}>
-            <div className={classes.item}>Агентство</div>
-            <div className={classes.item}>Услуги</div>
-            <div className={classes.item}>Кейсы</div>
-            <div className={classes.item}>Блог</div>
-            <div className={classes.item}>Контакты</div>
+            <div className={classes.item}>
+                <span>Агентство</span>
+            </div>
+            <div className={classes.item}>
+                <span>Услуги</span>
+            </div>
+            <div className={classes.item}>
+                <span>Кейсы</span>
+            </div>
+            <div className={classes.item}>
+                <span>Блог</span>
+            </div>
+            <div className={classes.item}>
+                <span>Контакты</span>
+            </div>
         </nav>
     );
 }

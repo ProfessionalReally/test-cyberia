@@ -8,6 +8,11 @@
     cursor: pointer;
 }
 
+.button:hover{
+    background-color: #2D76F9;
+    transition: all 0.9s;
+}
+
 .button_text {
     font-family: "Fira Sans Condensed", sans-serif;
     font-size: 24px;

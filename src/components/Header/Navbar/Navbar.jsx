@@ -4,19 +4,19 @@ function Navbar() {
     return (
         <nav className={classes.nav}>
             <div className={classes.item}>
-                <span>Агентство</span>
+                <a href='#'>Агентство</a>
             </div>
             <div className={classes.item}>
-                <span>Услуги</span>
+                <a href='#'>Услуги</a>
             </div>
             <div className={classes.item}>
-                <span>Кейсы</span>
+                <a href='#'>Кейсы</a>
             </div>
             <div className={classes.item}>
-                <span>Блог</span>
+                <a href='#'>Блог</a>
             </div>
             <div className={classes.item}>
-                <span>Контакты</span>
+                <a href='#'>Контакты</a>
             </div>
         </nav>
     );

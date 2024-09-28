@@ -1,5 +1,6 @@
 import classes from './Cases.module.css'
 import FilterButtons from "./FilterButtons/FilterButtons";
+import GalleryProject from "./GalleryProject/GalleryProject";
 
 function Cases() {
     return (
@@ -10,6 +11,7 @@ function Cases() {
                 </span>
             </div>
             <FilterButtons/>
+            <GalleryProject/>
         </main>
     );
 }

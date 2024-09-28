@@ -3,11 +3,17 @@
     margin: 3px 0 0 191px;
 }
 
-.item {
+.item a {
     font-size: 18px;
     font-weight: 400;
     line-height: 22px;
     color: #fff;
+    text-decoration: none;
+}
+
+.item a:hover {
+    color: #2D76F9;
+    transition: all 0.3s;
 }
 
 .item:not(:first-child) {

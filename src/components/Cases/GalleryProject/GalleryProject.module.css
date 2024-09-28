@@ -1,0 +1,7 @@
+.gallery_project {
+    display: grid;
+    max-width: 100%;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 31px 39px;
+    margin-top: 51px;
+}

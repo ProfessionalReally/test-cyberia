@@ -7,3 +7,7 @@
 .header {
     display: flex;
 }
+
+.logo_company {
+    cursor: pointer;
+}

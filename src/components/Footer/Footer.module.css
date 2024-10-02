@@ -1,0 +1,45 @@
+.footer {
+    display: flex;
+}
+
+.title_footer {
+    display: flex;
+    flex-direction: column;
+    row-gap: 29px;
+    margin-right: 155px;
+}
+
+.logo_company {
+    width: 199px;
+    height: 42px;
+    cursor: pointer;
+}
+
+.text_footer {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 22px;
+    color: #fff;
+    text-decoration: none;
+}
+
+.grid_item a:hover {
+    color: #2f76f9;
+    transition: all 0.3s;
+}
+
+.grid_footer {
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    gap: 21px 55px;
+}
+
+.grid_item {
+    display: flex;
+    flex-direction: column;
+    row-gap: 24px;
+}
+
+.grid_item:last-child {
+    margin-left: 13px;
+}

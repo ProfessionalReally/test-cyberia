@@ -1,6 +1,7 @@
 import classes from './Cases.module.css'
 import FilterButtons from "./FilterButtons/FilterButtons";
 import GalleryProject from "./GalleryProject/GalleryProject";
+import FeedBack from "./FeedBack/FeedBack";
 
 function Cases() {
     return (
@@ -12,6 +13,9 @@ function Cases() {
             </div>
             <FilterButtons/>
             <GalleryProject/>
+            <div className={classes.container_feedback}>
+                <FeedBack/>
+            </div>
         </main>
     );
 }

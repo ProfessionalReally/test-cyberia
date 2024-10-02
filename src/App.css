@@ -4,3 +4,12 @@
     margin: 0 auto;
     max-width: 1240px;
 }
+
+.header_wrapper {
+    width: 100%;
+    margin-top: 68px;
+}
+
+.breadcrumb_wrapper {
+    margin-top: 70px;
+}

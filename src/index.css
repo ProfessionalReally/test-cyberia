@@ -9,3 +9,7 @@ body {
     background-image: linear-gradient(90deg, #24252f 0%, #31313f 36%, #2f303d 44%, #242530 100%);
     filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#24252f", endColorstr="#242530", GradientType=1);
 }
+
+*, *::before, *::after {
+    box-sizing: border-box;
+}

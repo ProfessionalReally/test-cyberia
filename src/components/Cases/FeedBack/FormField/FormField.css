@@ -1,0 +1,38 @@
+input, textarea {
+    margin: 0;
+    padding: 0;
+}
+
+.text_field {
+    font-family: "Fira Sans Condensed", sans-serif;
+    box-sizing: border-box;
+    width: 100%;
+    border: 2px solid #9ba9bb;
+    border-radius: 8px;
+    background: transparent;
+    background-clip: padding-box;
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 22px;
+    color: #f0f4ff;
+    appearance: none;
+    transition: border-color 0.15s ease-in-out;
+    padding: 0 13px;
+}
+
+.text_field::placeholder {
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 22px;
+    color: #f0f4ff;
+}
+
+.text_field:focus {
+    border-color: #2f76f9;
+    outline: 0;
+}
+
+.text_field:focus::placeholder {
+    opacity: .4;
+}
+

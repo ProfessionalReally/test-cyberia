@@ -7,7 +7,9 @@ function Header() {
         <header className={classes.container_header}>
             <div className={classes.header}>
                 <LogoCompany className={classes.logo_company}/>
-                <Navbar/>
+                <div className={classes.container_navbar}>
+                    <Navbar/>
+                </div>
             </div>
         </header>
     );

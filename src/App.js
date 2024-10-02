@@ -6,8 +6,12 @@ import Cases from "./components/Cases/Cases";
 function App() {
     return (
         <div className="app_wrapper">
-            <Header/>
-            <Breadcrumb/>
+            <div className="header_wrapper">
+                <Header/>
+            </div>
+            <div className="breadcrumb_wrapper">
+                <Breadcrumb/>
+            </div>
             <Cases/>
         </div>
     );

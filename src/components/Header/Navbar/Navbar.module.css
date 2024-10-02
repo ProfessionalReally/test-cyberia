@@ -1,6 +1,5 @@
 .nav {
     display: flex;
-    margin: 3px 0 0 191px;
 }
 
 .item a {
@@ -12,7 +11,7 @@
 }
 
 .item a:hover {
-    color: #2D76F9;
+    color: #2f76f9;
     transition: all 0.3s;
 }
 

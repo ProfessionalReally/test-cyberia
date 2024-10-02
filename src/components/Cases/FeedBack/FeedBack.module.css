@@ -1,0 +1,58 @@
+.container_feedback_title {
+    max-width: 361px;
+    max-height: 116px;
+    width: 100%;
+    height: 100%;
+}
+
+.title_text {
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 58px;
+    color: #f0f4ff;
+}
+
+.form_feedback {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 40px;
+    margin-top: 89px;
+}
+
+.textarea {
+    grid-column: 1 / 4;
+    max-height: 139px;
+}
+
+.checkbox_block {
+    margin-top: 1px;
+}
+
+.button_block {
+    display: flex;
+    justify-content: center;
+    margin: 62px 35px 0 0;
+}
+
+.button {
+    background: #2f76f9;
+    padding: 20px 65px;
+    border: none;
+    text-decoration: none;
+    cursor: pointer;
+    border-radius: 85px;
+    transition: background-color 0.4s;
+}
+
+.button:hover {
+    background-color: #0155f3;
+    transition: background-color 0.4s;
+}
+
+.button_text {
+    font-family: "Fira Sans Condensed", sans-serif;
+    font-size: 18px;
+    line-height: 22px;
+    color: #fff;
+}
+

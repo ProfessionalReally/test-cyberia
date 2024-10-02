@@ -8,3 +8,8 @@
     line-height: 58px;
     color: #edf3ff;
 }
+
+.container_feedback {
+    width: 100%;
+    margin-top: 100px;
+}

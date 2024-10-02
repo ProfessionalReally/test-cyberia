@@ -8,9 +8,9 @@
     cursor: pointer;
 }
 
-.button:hover{
-    background-color: #2D76F9;
-    transition: all 0.9s;
+.button:hover {
+    background-color: #2f76f9;
+    transition: background-color 0.9s;
 }
 
 .button_text {

@@ -1,70 +1,97 @@
-# Getting Started with Create React App
+# Тестовый проект для Cyberia ![logo](https://github.com/user-attachments/assets/e2568539-2e45-414b-9b5d-c406116cc8e4)
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+## 📜 Содержание
+-   [Описание](#-описание)
+-   [Используемые технологии:](##используемые-технологии:)
+-   [Для запуска проекта выполни следующие шаги:](##для-запуска-проекта-выполни-следующие-шаги:)
+-   [Требования проекта:](##требования-проекта:)
+    -    [Дизайн страницы:](###дизайн-страницы:)
+    -    [Необходимое для работы:](###необходимое-для-работы:)
+    -    [Требования по технической части:](###требования-по-технической-части:)
+    -    [Требования к вёрстке](###требования-к-вёрстке)
+    -    [Требования к выполнению](###требования-к-выполнению)
+    -    [Результат](###результат)
 
-In the project directory, you can run:
+## ✏️ Описание
 
-### `npm start`
+Данный проект на React был создан в рамках тестового задания, чтобы продемонстрировать свои навыки и знания
+во фронтенд-разработке, а также приобрести новые в ходе работы. Основная цель задания —
+реализовать страницу списка проектов компании с формой обратной связи.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## 🎓 Используемые технологии:
+-   **React**
+-   **Redux**
+-   **Axios**
+-   **Общедоступный API для получения данных**
+-   **CSS-modules**
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## 🚀 Для запуска проекта выполни следующие шаги
 
-### `npm test`
+1. [Скачай и установи](https://nodejs.org/en/) последнюю LTS-версию Node.js.
+2. Выполни в консоли `node -v` и убедись, что установлена последняя версия Node.js не ниже `v20.18.0`;
+3. Введи в консоли `npm -v` и убедись, что установлена последняя версия npm не ниже `9.3.1`;
+4. [Скачай и установи Git](https://git-scm.com/downloads), если его нет на компьютере;
+5. Введи `git --version`, чтобы проверь версию установленного Git, должно быть не ниже `2.44.0`;
+6. Склонируй и запусти этот проект: `git clone https://github.com/ProfessionalReally/test-cyberia.git`;
+7. Чтобы перейти в директорию с проекта, после клонирования выполни команду `cd test-cyberia`;
+8. Чтобы установить зависимости проекта, выполни команду `npm install`;
+9. Чтобы запустить проект в режиме разработки, самое время выполнить команду`npm start`;
+10. Перейди в браузер и открой страничку [http://localhost:3000](http://localhost:3000/). Когда страничка загрузится, ты увидишь страницу `Кейсы`.
+11. Открой Chrome Dev Tools и перейди на вкладку Console, там не должно быть каких-либо ошибок.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## ❗ Требования проекта
 
-### `npm run build`
+### 📌 Дизайн страницы
+-   Макет страницы доступен по следующей ссылке в Figma: [Ссылка на макет](https://www.figma.com/file/6VPDtBvcMYrqqhvwZ0GIPV/%D0%A2%D0%B5%D1%81%D1%82%D0%BE%D0%B2%D0%BE%D0%B5-%D0%B4%D0%BB%D1%8F-%D1%84%D1%80%D0%BE%D0%BD%D1%82%D0%B5%D0%BD%D0%B4%D0%B5%D1%80%D0%BE%D0%B2?type=design&node-id=1-113&mode=design&t=XNb7CUpvm3z6v2rs-0)
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### 📌 Необходимое для работы
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Для работы с данными необходимо использовать следующий API:
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+- **API URL**: https://api.test.cyberia.studio/api/v1
+- **Получение данных проектов**: `GET /projects`
+- **Получение категорий проектов**: `GET /project-categories`
+- **Отправка данных с формы обратной связи**: `POST /feedbacks`
+- **Postman-коллекция запросов** доступна по [ссылке](https://disk.yandex.ru/d/fMBtqZhTlUhIhA)
 
-### `npm run eject`
+Фильтрация проектов происходит на стороне фронтенда.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+### 📌 Требования по технической части
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+- Необходимо использовать фреймворк: **React.js** или **Vue.js**.
+- Дополнительным плюсом будет реализация на **Next.js** или **Nuxt.js**.
+- Использование инструментов для автоматического форматирования кода (**Prettier**, **ESLint** и др.).
+- Для стилизации можно использовать один из подходов:
+    - **БЭМ** с препроцессорами (Sass/SCSS);
+    - **CSS-in-JS**;
+    - **CSS-modules**.
+- Использование **state-менеджера** (например, Redux) допускается и приветствуется.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+Обратите внимание: требования к технической части являются минимальными. Вы можете продемонстрировать дополнительные навыки, если сочтёте это необходимым.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+### 📌 Требования к вёрстке
 
-## Learn More
+- Адаптивная вёрстка под **десктоп** и **мобайл**.
+- Вёрстка должна быть **валидной**, с использованием **семантических тегов**.
+- Реализация **hover-эффектов** для кликабельных элементов на ваше усмотрение.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+### 📌 Требования к выполнению
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+- Валидировать данные формы на стороне **фронтенда**, а также обрабатывать ошибки валидации с бэкенда (код ответа `422`).
+- Учесть, что многие компоненты будут **переиспользованы** на других страницах. Среди них:
+    - **Хедер**
+    - **Футер**
+    - **Хлебные крошки**
+    - **Форма обратной связи**
 
-### Code Splitting
+### ✔️ Результат
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+- Ссылка на репозиторий.
+- Инструкция по запуску проекта в файле `README.md`.
 
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+<div align="center">
+  <!-- Сделано с любовь -->
+    <img src="https://img.shields.io/badge/%D0%A1%D0%B4%D0%B5%D0%BB%D0%B0%D0%BD%D0%BE%20%D1%81-%F0%9F%96%A4-red.svg?longCache=true&style=for-the-badge&colorA=000&colorB=fedcba"
+      alt="Сделано с любовь" />
+</div>
